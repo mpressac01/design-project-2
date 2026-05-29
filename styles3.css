@@ -1,0 +1,70 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    font-family: Persona;
+
+
+    
+    
+}
+@font-face {
+    font-family: Persona; /* set name */
+    src: url(fonts/FOT-SkipStd-B.otf); /* url of the font */
+  }
+  
+header {
+    text-align: center;
+    position: fixed;
+    height: 250px;
+    width: 100%;
+    display: inline-block;
+    background-color: yellow;
+    font-size: 20px;
+    padding-top: 3px;
+    border: 5px solid gold; 
+    z-index: 2;   
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    z-index: 2;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*display can't pass the height and width of the document*/
+}
+ul li a {
+    float: right;/*shifts to the left for some reason*/
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: black ;
+    font-family: Persona;
+    
+}
+/*This code makes the image zoom when hovered over*/
+.zoom {
+ 
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+  h1{
+    font-size: 250%;
+    padding: 5px 5px;
+    background-color: rgb(244, 255, 213);
+    border: 10px solid darkgoldenrod;
+  }
+table{
+  border: 5px solid black;
+}
+  
+
